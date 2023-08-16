@@ -3,7 +3,7 @@ const nextConfig = {
     compiler: {
         removeConsole: {
             exclude: ["error"]
-        }
+        },
     },
     swcMinify: false,
     staticPageGenerationTimeout: 0,
