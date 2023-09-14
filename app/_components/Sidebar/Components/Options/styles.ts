@@ -6,7 +6,7 @@ export const Root = styled.ul`
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding: 15px;
+    padding: 0 15px;
 `;
 
 export const Option = styled.li`
@@ -15,6 +15,7 @@ export const Option = styled.li`
         height: 40px;
         border-radius: 10px;
         padding: 0 15px;
+
         color: ${theme.colors.slate12};
         font-size: 0.9rem;
         font-weight: 500;
@@ -22,11 +23,14 @@ export const Option = styled.li`
         display: flex;
         align-items: center;
         gap: 20px;
+
         cursor: pointer;
+        transition: 0.3s ease-out;
 
         &:hover {
             background: ${theme.colors.slate3};
             color: ${theme.colors.slate12};
+            transition: 0.1s ease-in;
         }
 
         &:focus {

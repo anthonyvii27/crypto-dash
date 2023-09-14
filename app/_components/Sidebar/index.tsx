@@ -12,7 +12,6 @@ const Sidebar = (): ReactNode => {
     return (
         <Root data-opened={coreCtx.sidebarState}>
             <Brand>cryptodash</Brand>
-            {/* <RetractButton /> */}
             <Options />
         </Root>
     );
