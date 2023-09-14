@@ -8,7 +8,7 @@ export const Root = styled.header`
     padding: 0 20px;
     background: ${({ theme }) => theme.colors.slate2};
     border-bottom: 1px solid ${({ theme }) => theme.colors.slate4};
-    grid-area: 1 / 1 / 2 / 3;
+    grid-area: 1 / 2 / 2 / 3;
 
     display: flex;
     align-items: center;

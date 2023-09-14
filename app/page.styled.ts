@@ -6,8 +6,8 @@ export const Root = styled.main`
     width: 100%;
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 250px 1fr;
-    grid-template-rows: 50px 1fr;
+    grid-template-columns: 270px 1fr;
+    grid-template-rows: 70px 1fr;
     grid-column-gap: 0;
     grid-row-gap: 0;
 

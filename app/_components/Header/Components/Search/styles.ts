@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const Root = styled.div`
     ${({ theme }) => css`
         width: 40vw;
-        height: 40px;
+        height: 50px;
         display: flex;
         align-items: center;
         gap: 10px;
