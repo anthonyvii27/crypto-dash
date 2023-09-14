@@ -1,7 +1,7 @@
 const LightTheme = {
     colors: {
         white: "#fff",
-        background: "#fcfcfd",
+        slate1: "#fcfcfd",
         slate2: "#f9f9fb",
         slate3: "#f2f2f5",
         slate4: "#ebebef",
@@ -20,7 +20,7 @@ const LightTheme = {
 const DarkTheme = {
     colors: {
         slate1: "#18181a",
-        background: "#1b1b1f",
+        slate2: "#1b1b1f",
         slate3: "#27282d",
         slate4: "#2e3035",
         slate5: "#35373c",
