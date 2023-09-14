@@ -4,8 +4,10 @@ import styled from "styled-components";
 
 export const Root = styled.header`
     width: 100%;
-    height: 60px;
+    height: 70px;
+    padding: 0 20px;
     background: ${({ theme }) => theme.colors.slate2};
+    border-bottom: 1px solid ${({ theme }) => theme.colors.slate4};
     grid-area: 1 / 1 / 2 / 3;
 
     display: flex;
