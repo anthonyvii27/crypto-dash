@@ -12,6 +12,13 @@ const Sidebar = (): ReactNode => {
     return (
         <Root data-opened={coreCtx.sidebarState}>
             <RetractButton />
+            <button
+                onClick={() =>
+                    coreCtx.setTheme(prevState => (prevState === "light" ? "dark" : "light"))
+                }
+            >
+                CHANGE THEME
+            </button>
         </Root>
     );
 };
