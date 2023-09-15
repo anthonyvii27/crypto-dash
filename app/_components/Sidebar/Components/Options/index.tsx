@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 import {
     BarChart3,
-    Bitcoin,
     BookMarked,
     CircleDollarSign,
     Home,
@@ -9,6 +8,9 @@ import {
     Newspaper,
     Wallet,
 } from "lucide-react";
+import { Ethereum } from "@/app/_assets/Logos/ethereum";
+import { Cardano } from "@/app/_assets/Logos/cardano";
+import { Bitcoin } from "@/app/_assets/Logos/bitcoin";
 import { Root, Option, Separator, Credits, CreditText } from "./styles";
 
 const Options = (): ReactNode => (
@@ -45,16 +47,16 @@ const Options = (): ReactNode => (
         <Separator />
 
         <Option>
-            <Bitcoin size={22} />
+            <Bitcoin width={30} height={30} />
             Bitcoin
         </Option>
         <Option>
-            <Wallet size={22} />
-            Ethereum
+            <Cardano width={30} height={30} />
+            Cardano
         </Option>
         <Option>
-            <Wallet size={22} />
-            Cardano
+            <Ethereum width={30} height={30} />
+            Ethereum
         </Option>
 
         <Credits>
